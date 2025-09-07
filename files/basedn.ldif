@@ -1,0 +1,7 @@
+dn: ou=people,{{ dc }}
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,{{ dc }}
+objectClass: organizationalUnit
+ou: groups

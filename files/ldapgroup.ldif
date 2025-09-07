@@ -1,0 +1,5 @@
+dn: cn=users,{{ dc }}
+objectClass: posixGroup
+cn: users
+gidNumber: {{ gid_num }}
+memberUID: {{ ldap_username }}
