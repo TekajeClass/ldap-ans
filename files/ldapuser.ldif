@@ -4,8 +4,9 @@ objectClass: inetOrgPerson
 objectClass: shadowAccount
 cn: {{ ldap_cn }}
 sn: {{ ldap_surname }}
-userPassword : {{ ldap_user_hash.stdout }}
+userPassword: {{ ldap_user_hash.stdout }}
 loginShell: /bin/bash
 uidNumber: {{ uid_num }}
 gidNumber: {{ gid_num }}
+
 homeDirectory: /home/{{ ldap_username }}
