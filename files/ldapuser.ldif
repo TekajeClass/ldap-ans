@@ -8,5 +8,4 @@ userPassword: {{ ldap_user_hash.stdout }}
 loginShell: /bin/bash
 uidNumber: {{ uid_num }}
 gidNumber: {{ gid_num }}
-
 homeDirectory: /home/{{ ldap_username }}
